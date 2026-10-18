@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/simi/Dokumenty/prvocisla_mocniny_dynamicke__pole/cmake-build-debug",
+  "command": "/usr/bin/cc -g -std=gnu11 -fdiagnostics-color=always -o CMakeFiles/prvocisla_mocniny_dynamicke__pole.dir/main.c.o -c /home/simi/Dokumenty/prvocisla_mocniny_dynamicke__pole/main.c",
+  "file": "/home/simi/Dokumenty/prvocisla_mocniny_dynamicke__pole/main.c",
+  "output": "/home/simi/Dokumenty/prvocisla_mocniny_dynamicke__pole/cmake-build-debug/CMakeFiles/prvocisla_mocniny_dynamicke__pole.dir/main.c.o"
+}
+]

@@ -1,0 +1,3 @@
+/home/simi/Dokumenty/prvocisla_mocniny_dynamicke__pole/cmake-build-debug/CMakeFiles/prvocisla_mocniny_dynamicke__pole.dir
+/home/simi/Dokumenty/prvocisla_mocniny_dynamicke__pole/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/simi/Dokumenty/prvocisla_mocniny_dynamicke__pole/cmake-build-debug/CMakeFiles/rebuild_cache.dir

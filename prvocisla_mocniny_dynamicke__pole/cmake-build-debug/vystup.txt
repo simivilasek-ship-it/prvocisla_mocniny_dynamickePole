@@ -1,0 +1,9 @@
+Vypis cisel s prvociselnym zakladem ze seoboru cisla.txt
+------------------------------------
+poradi   zaklad  exponent    mocnina
+------------------------------------
+   1.      2        3          8
+   2.      3        4         81
+   3.      5        2         25
+   4.      7        2         49
+   5.     11        2        121

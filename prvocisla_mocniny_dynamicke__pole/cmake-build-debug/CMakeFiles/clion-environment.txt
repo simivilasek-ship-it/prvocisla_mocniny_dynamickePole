@@ -1,0 +1,4 @@
+ToolSet: 1.0 (local)Ninja: 1.13.2@/home/simi/Stažené/CLion-2026.2.3.1 (2)/clion-2026.2.3.1/bin/ninja/linux/x64/ninja
+Options: 
+
+Options:-DCMAKE_MAKE_PROGRAM=/home/simi/Stažené/CLion-2026.2.3.1 (2)/clion-2026.2.3.1/bin/ninja/linux/x64/ninja
