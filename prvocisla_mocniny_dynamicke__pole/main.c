@@ -23,7 +23,7 @@ void Kontrola_zavreni(FILE *soubor, const char *SOUBOR) {
     }
 }
 
-// Dynamické načtení souboru pomocí malloc a realloc
+
 ZAZNAM *read_file(int *count) {
     int i = 0;
     ZAZNAM *zaznamy = NULL;
@@ -33,9 +33,9 @@ ZAZNAM *read_file(int *count) {
     Kontrola_otevreni(soubor, VSTUPNI_SOUBOR);
 
     int zaklad, exponent;
-    // Dokud se daří číst dvojice čísel ze souboru
+    
     while (fscanf(soubor, "%d %d", &zaklad, &exponent) == 2) {
-        // Přerozdělujeme dynamickou paměť pro aktuální počet prvků + 1
+        
         tmp_zaznamy = (ZAZNAM *) realloc(zaznamy, (i + 1) * sizeof(ZAZNAM));
         
         if (tmp_zaznamy == NULL) {
@@ -47,14 +47,14 @@ ZAZNAM *read_file(int *count) {
         
         zaznamy = tmp_zaznamy;
 
-        // Uložení načtených dat do dynamického pole
+        
         zaznamy[i].zaklad = zaklad;
         zaznamy[i].exponent = exponent;
         i++;
     }
 
     Kontrola_zavreni(soubor, VSTUPNI_SOUBOR);
-    *count = i; // Vrátíme celkový počet načtených záznamů
+    *count = i; 
     return zaznamy;
 }
 
